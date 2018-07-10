@@ -3,6 +3,8 @@
 #include <map>
 #include <queue>
 #include "GameConnection.hpp"
+#include "Limits.hpp"
+
 //--------游戏坐标系示意图----------
 //(-200,0)        (0,0)      (200,0)
 //   +-----------+-----------+-->

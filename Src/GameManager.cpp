@@ -46,7 +46,7 @@ void GameManager::update(unsigned long long frameCount) {
 		//选择最高估价以及信息输出
 		//printf("%d\n", valueMap.size());
 		bool haveNoChoice = true;
-		double maxValue = -99999999999.0;
+		double maxValue = DOUBLE_MAX;
 		int moveKeyChoice = -1;
 		bool useShift = false;
 		bool useBomb = false;
